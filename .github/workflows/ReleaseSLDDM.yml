@@ -1,0 +1,19 @@
+name: Release SLDDM
+on:
+  push:
+    branches:
+      - SLDDM
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1.0.5
+    - name: Pack
+      run: nuget pack swDocumentMgr/SLDDM.nuspec
+    - name: Push Nuget
+      run: nuget push **\*.nupkg -src https://api.nuget.org/v3/index.json ${{secrets.NUGET}} -SkipDuplicate
+    - name: Push Nuget Github
+      run: nuget push **\*.nupkg -src https://nuget.pkg.github.com/VisiativSwiss/index.json ${{secrets.GITHUBNUGET}} -SkipDuplicate
