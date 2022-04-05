@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Visiativ.SOLIDWORKS.DocumentManager.Interop</id>
-    <version>16.2.0</version>
+    <version>16.3.0</version>
     <title>SolidWorks Document Manager API</title>
     <authors>Martin Bartolomé</authors>
     <owners>SOLIDWORKS</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://help.solidworks.com/2016/English/api/SWHelp_List.html?id=a4730011e6ae4a8495d3b67263a73ce4#Pg0</projectUrl>
-    <description>SolidWorks Document Manager API 2016 SP 2</description>
+    <description>SolidWorks Document Manager API 2016 SP 3</description>
     <repository type="git" url="https://github.com/VisiativSwiss/Solidworks-API.git" branch="SLDDM" />
     <icon>images\Logo.jpg</icon>
 	<tags>Visiativ Solidworks DocumentManager CAD</tags>
