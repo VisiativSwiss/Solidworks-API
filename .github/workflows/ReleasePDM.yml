@@ -2,7 +2,7 @@ name: Release PDM
 on:
   push:
     branches:
-      - PDM
+      - main
   workflow_dispatch:
 jobs:
   build:

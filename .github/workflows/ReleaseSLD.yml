@@ -2,7 +2,7 @@ name: Release SLD
 on:
   push:
     branches:
-      - SLD
+      - main
   workflow_dispatch:
 jobs:
   build:

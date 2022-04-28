@@ -2,7 +2,7 @@ name: Release SLDDM
 on:
   push:
     branches:
-      - SLDDM
+      - main
   workflow_dispatch:
 jobs:
   build:

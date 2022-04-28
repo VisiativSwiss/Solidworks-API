@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Visiativ.SOLIDWORKS.PDMProfessional.Interop</id>
-    <version>30.1.0</version>
+    <version>30.2.0</version>
     <title>PDM API</title>
     <authors>Martin Bartolomé</authors>
     <owners>SOLIDWORKS</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://help.solidworks.com/2022/English/api/SWHelp_List.html?id=7cfd3192d7a54008a7e2e46e57120f79#Pg0</projectUrl>
-    <description>PDM API 2022 SP 1</description>
+    <description>PDM API 2022 SP 2</description>
     <repository type="git" url="https://github.com/VisiativSwiss/Solidworks-API.git" branch="PDM" />
 	<icon>images\Logo.jpg</icon>
 	<tags>Visiativ Solidworks PDM CAD</tags>
