@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Visiativ.SOLIDWORKS.Interop</id>
+    <version>30.1.0</version>
+    <title>SolidWorks API</title>
+    <authors>Martin Bartolomé</authors>
+    <owners>SOLIDWORKS</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://help.solidworks.com/2022/English/api/SWHelp_List.html?id=0aa5da3e49aa44c1b564fb5313830882#Pg0</projectUrl>
+    <description>SolidWorks API 2022 SP 1</description>
+    <repository type="git" url="https://github.com/VisiativSwiss/Solidworks-API.git" branch="SLD" />
+	<icon>images\Logo.jpg</icon>
+	<tags>Visiativ Solidworks CAD</tags>
+  </metadata>
+  <files>
+    <file src="lib\net\SolidWorks.Interop.sldworks.dll" target="lib\net20\SolidWorks.Interop.sldworks.dll" />
+    <file src="lib\net\SolidWorks.Interop.swcommands.dll" target="lib\net20\SolidWorks.Interop.swcommands.dll" />
+    <file src="lib\net\SolidWorks.Interop.swconst.dll" target="lib\net20\SolidWorks.Interop.swconst.dll" />
+    <file src="lib\net\SolidWorks.Interop.swpublished.dll" target="lib\net20\SolidWorks.Interop.swpublished.dll" />
+
+	<file src="lib\net\SolidWorks.Interop.sldworks.dll" target="lib\net35\SolidWorks.Interop.sldworks.dll" />
+    <file src="lib\net\SolidWorks.Interop.swcommands.dll" target="lib\net35\SolidWorks.Interop.swcommands.dll" />
+    <file src="lib\net\SolidWorks.Interop.swconst.dll" target="lib\net35\SolidWorks.Interop.swconst.dll" />
+    <file src="lib\net\SolidWorks.Interop.swpublished.dll" target="lib\net35\SolidWorks.Interop.swpublished.dll" />
+	
+	<file src="lib\net\SolidWorks.Interop.sldworks.dll" target="lib\net40\SolidWorks.Interop.sldworks.dll" />
+    <file src="lib\net\SolidWorks.Interop.swcommands.dll" target="lib\net40\SolidWorks.Interop.swcommands.dll" />
+    <file src="lib\net\SolidWorks.Interop.swconst.dll" target="lib\net40\SolidWorks.Interop.swconst.dll" />
+    <file src="lib\net\SolidWorks.Interop.swpublished.dll" target="lib\net40\SolidWorks.Interop.swpublished.dll" />
+	
+	<file src="lib\net\SolidWorks.Interop.sldworks.dll" target="lib\net45\SolidWorks.Interop.sldworks.dll" />
+    <file src="lib\net\SolidWorks.Interop.swcommands.dll" target="lib\net45\SolidWorks.Interop.swcommands.dll" />
+    <file src="lib\net\SolidWorks.Interop.swconst.dll" target="lib\net45\SolidWorks.Interop.swconst.dll" />
+    <file src="lib\net\SolidWorks.Interop.swpublished.dll" target="lib\net45\SolidWorks.Interop.swpublished.dll" />
+	
+	<file src="lib\net\SolidWorks.Interop.sldworks.dll" target="lib\net48\SolidWorks.Interop.sldworks.dll" />
+    <file src="lib\net\SolidWorks.Interop.swcommands.dll" target="lib\net48\SolidWorks.Interop.swcommands.dll" />
+    <file src="lib\net\SolidWorks.Interop.swconst.dll" target="lib\net48\SolidWorks.Interop.swconst.dll" />
+    <file src="lib\net\SolidWorks.Interop.swpublished.dll" target="lib\net48\SolidWorks.Interop.swpublished.dll" />
+	
+	<file src="lib\net\SolidWorks.Interop.sldworks.dll" target="lib\net5.0\SolidWorks.Interop.sldworks.dll" />
+    <file src="lib\net\SolidWorks.Interop.swcommands.dll" target="lib\net5.0\SolidWorks.Interop.swcommands.dll" />
+    <file src="lib\net\SolidWorks.Interop.swconst.dll" target="lib\net5.0\SolidWorks.Interop.swconst.dll" />
+    <file src="lib\net\SolidWorks.Interop.swpublished.dll" target="lib\net5.0\SolidWorks.Interop.swpublished.dll" />
+	
+	<file src="lib\net\SolidWorks.Interop.sldworks.dll" target="lib\net6.0\SolidWorks.Interop.sldworks.dll" />
+    <file src="lib\net\SolidWorks.Interop.swcommands.dll" target="lib\net6.0\SolidWorks.Interop.swcommands.dll" />
+    <file src="lib\net\SolidWorks.Interop.swconst.dll" target="lib\net6.0\SolidWorks.Interop.swconst.dll" />
+    <file src="lib\net\SolidWorks.Interop.swpublished.dll" target="lib\net6.0\SolidWorks.Interop.swpublished.dll" />
+	
+	<file src="install.ps1" target="tools\install.ps1" />
+	<file src="images\Logo.jpg" target="images\" />
+  </files>
+</package>
